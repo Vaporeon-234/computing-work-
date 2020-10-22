@@ -1,14 +1,15 @@
-print("Scallywag the Pirate")
-print("")
-print("")
-name = input("What is your name?")
-print("Hello " + name + "!")
-print("My name is Scallywag the pirate!")
-counter = 0
-while counter == 0:
-  description = input("How do you feel right now, matey?")
-  list_of_words = description.split()
-  for each_word in list_of_words:
+While true:
+  print("Scallywag the Pirate")
+  print("")
+  print("")
+  name = input("What is your name?")
+  print("Hello " + name + "!")
+  print("My name is Scallywag the pirate!")
+  counter = 0
+  while counter == 0:
+    description = input("How do you feel right now, matey?")
+    list_of_words = description.split()
+    for each_word in list_of_words:
     if each_word == "sad" and counter == 0:
       print("Back in my day, if an 'ol seadog was sad, we'll drink to the gods!")
       print("Tomorrow will be a better day, we would say.")
@@ -38,9 +39,9 @@ while counter == 0:
       print("What? I don't know what you are saying!")
       print("Oh nevermind. Your feelings can stay to yourself.")
       print("You can tell me them later.")
-      counter = 1      
-while counter == 1:
-  description = input("You look troubled, is that nasty shark biting your leg again?")
+      counter = 1
+  while counter == 1:
+  description = input("You look troubled, is that nasty shark biting your leg again?"
   list_of_words = description.split()
   for each_word in list_of_words:
     print("i")
